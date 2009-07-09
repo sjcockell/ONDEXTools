@@ -1,0 +1,7 @@
+def execute():
+	"runs specific code"
+	local("python bin/parseAffyAnnotation.py data/geneexpression/affy_annotation")
+
+def github():
+	local("git commit -a")
+	local("git push origin master")
